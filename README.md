@@ -14,3 +14,22 @@ Run -
     python manage.py runserver
 Drive Link for Env variable of anaconda 
 https://drive.google.com/open?id=16_O3CY1rfpj8PvbW_nYv_-C05sRjKm5S
+
+## Or 
+
+Creating an environment from an environment.yml file that is provided in code
+
+Use the terminal or an Anaconda Prompt for the following steps:
+
+Create the environment from the environment.yml file:
+
+    conda env create -f environment.yml
+The first line of the yml file sets the new environment's name. For details see Creating an environment file manually.
+
+Activate the new environment: 
+    ```conda activate djangoProject```
+
+Verify that the new environment was installed correctly:
+
+conda env list
+You can also use conda info --envs.
