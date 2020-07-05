@@ -1,0 +1,5 @@
+What is LBPH
+
+https://towardsdatascience.com/face-recognition-how-lbph-works-90ec258c3d6b
+
+
